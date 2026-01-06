@@ -88,7 +88,6 @@ export default function SearchMate() {
             value={keyword}
             onChange={setKeyword}
             onSearch={handleSearch}
-            onEnter={handleSearch}
             placeholder="원하는 메이트의 이름을 검색해보세요."
             title={
               <>
