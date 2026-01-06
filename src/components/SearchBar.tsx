@@ -1,9 +1,11 @@
+import { ReactNode } from "react";
+
 type Props = {
   value: string;
   onChange: (value: string) => void;
   onSearch: () => void;
   placeholder: string;
-  title: string;
+  title: ReactNode;
 };
 
 export default function SearchBar({
