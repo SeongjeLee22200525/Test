@@ -61,7 +61,6 @@ export default function RecruitMate() {
             value={keyword}
             onChange={setKeyword}
             onSearch={handleSearch}
-            onEnter={handleSearch}
             placeholder="원하는 팀플을 검색해보세요."
             title={
               <>
